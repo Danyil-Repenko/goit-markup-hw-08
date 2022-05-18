@@ -1,12 +1,21 @@
 .advantages {
-  @extend %center-flex;
+  @media screen and (min-width: $tablet-width) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .advantages__item {
-  max-width: 270px;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 
-  & + & {
-    margin-left: 30px;
+  @media screen and (min-width: $desktop-width) {
+    max-width: 270px;
+
+    & + & {
+      margin-left: 30px;
+    }
   }
 }
 
@@ -27,6 +36,7 @@
 
 .advantages__title {
   @extend %caps-text;
+  text-align: center;
 }
 
 .advantages__text {

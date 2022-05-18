@@ -1,5 +1,8 @@
 .clients {
-  @extend %center-flex;
+  @media screen and (min-width: $tablet-width) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .clients__link {

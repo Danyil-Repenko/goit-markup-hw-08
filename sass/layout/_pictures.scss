@@ -18,8 +18,12 @@
 }
 
 .section--no-padding-top {
-  @extend .section;
+  @extend %center-flex;
   padding-top: 0;
+
+  @media screen and (max-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .pictures-list__item {

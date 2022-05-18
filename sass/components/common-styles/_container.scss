@@ -1,18 +1,37 @@
-.flex-container,
-.header__container {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: $tablet-width) {
+  .flex-container,
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
 }
 
+.header__container {
+  @media screen and (max-width: $tablet-width) {
+    padding: 16px 0;
+  }
+}
 .container {
-  width: 1200px;
+  max-width: $phone-width;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   /*outline: 2px solid tomato;*/
+
+  @media screen and (min-width: $tablet-width) {
+    width: $tablet-width;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: $desktop-width) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }

@@ -3,10 +3,15 @@
   color: $headers-color;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   text-decoration: none;
-  line-height: 1.19;
+  line-height: 1.16;
   letter-spacing: 0.03em;
+
+  @media screen and (min-width: $desktop-width) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo--second-half {
