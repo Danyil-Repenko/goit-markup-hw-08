@@ -1,0 +1,23 @@
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: $accent-color;
+    color: $bg-color;
+    cursor: pointer;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms $animation-patern;
+
+    &:hover,
+    &:focus {
+      background-color: #188ce8;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+%center-flex {
+    display: flex;
+  justify-content: center;
+}
+
+%caps-text {
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: $headers-color;
+    text-transform: uppercase;
+}

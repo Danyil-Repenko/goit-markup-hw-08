@@ -1,0 +1,33 @@
+.crew-list {
+  @extend %center-flex;
+}
+
+.crew-list__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  color: $headers-color;
+}
+
+.section--light-bg {
+  background-color: $light-bg-color;
+}
+
+.crew-list__item {
+  text-align: center;
+  background-color: $bg-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+}
+
+.crew-list__box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
