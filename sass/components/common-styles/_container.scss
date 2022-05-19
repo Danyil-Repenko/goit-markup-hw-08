@@ -1,4 +1,4 @@
-@media screen and (min-width: $tablet-width) {
+@media screen and (min-width: 768px) {
   .flex-container,
   .header__container {
     display: flex;
@@ -7,30 +7,30 @@
 }
 
 .header__container {
-  @media screen and (max-width: $tablet-width) {
+  @media screen and (max-width: 767px) {
     padding: 16px 0;
   }
 }
 .container {
-  max-width: $phone-width;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   /*outline: 2px solid tomato;*/
 
-  @media screen and (min-width: $tablet-width) {
-    width: $tablet-width;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
   }
 
-  @media screen and (min-width: $desktop-width) {
-    width: $desktop-width;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
   }
 }
 
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
-  @media screen and (min-width: $desktop-width) {
+  @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }

@@ -5,18 +5,28 @@
 }
 
 .footer-container {
-  @media screen and (min-width: $tablet-width) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: baseline;
   }
 }
 
 .adresses-section {
-  margin-right: 70px;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
 }
 
 .adress__el + .adress__el {
-  margin-top: 9px;
+  margin-top: 8px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 9px;
+  }
 }
 
 .adress__location {
@@ -28,6 +38,12 @@
   letter-spacing: 0.03em;
 }
 
+.follow-us {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+}
 .follow-us__title {
   @extend %caps-text;
   color: #ffffff;
