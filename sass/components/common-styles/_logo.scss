@@ -8,15 +8,15 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
 
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+
   @media screen and (min-width: 1200px) {
     font-size: 26px;
     line-height: 1.19;
+    margin-right: 93px;
   }
-}
-
-.logo--second-half {
-  margin-right: 93px;
-  color: $headers-color;
 }
 
 .footer__logo {

@@ -1,26 +1,39 @@
 .adress__item + .adress__item {
-  margin-left: 30px;
+  @media screen and (max-width: 1199px) {
+    margin-top: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  }
 }
 
 .adress__link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
   transition: color 250ms $animation-patern;
 
   &:hover,
   &:focus {
     color: $accent-color;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .adresses {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   margin-left: auto;
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -28,12 +41,21 @@
   display: flex;
   align-items: center;
   font-weight: 500;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   font-style: normal;
   color: $main-text-color;
   text-decoration: none;
   text-align: center;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .adress__icon {

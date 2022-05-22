@@ -17,6 +17,68 @@
     <header class="header">
       <div class="container header__container">
         <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
+        <div class="mob-menu">
+          <div class="mob-menu__container">
+            <div class="mob-menu-top">
+          <button type="button" class="mob-menu__button is-open" aria-label="Переключатель мобильного меню">
+              <svg width="40" height="40">
+                <use class="close-menu-icon" href="./images/icons.svg#icon-close-menu-icon"></use>
+                <use class="menu-icon" href="./images/icons.svg#icon-menu-icon"></use>
+              </svg> 
+            </button>
+          <ul class="mob-nav">
+            <li class="mob-nav__item mob-nav__item--active">
+              <a class="mob-nav__link" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="mob-nav__item">
+              <a class="mob-nav__link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mob-nav__item">
+              <a class="mob-nav__link" href="/">Контакты</a>
+            </li>
+          </div>
+          <div class="mob-menu-bottom">
+          </ul>
+          <ul class="mob-adresses">
+            <li class="mob-adress__item">
+            <a class="mob-adress__tel" href="tel:+380961111111"
+              >
+              +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mob-adress__item">
+            <a class="mob-adress__mail" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mob-social">
+          <li class="mob-social__item">
+            <a class="mob-social__link" href="/">
+              Instagram</a
+            >
+          </li>
+          <li class="mob-social__item">
+            <a class="mob-social__link" href="/">
+              Twitter</a
+            >
+          </li>
+          <li class="mob-social__item">
+            <a class="mob-social__link" href="/">
+              Facebook</a
+            >
+          </li>
+          <li class="mob-social__item">
+            <a class="mob-social__link" href="/">
+              LinkedIn</a
+            >
+          </li>
+        </ul>
+        </div>
+        </div>
+        </div>
         <nav>
           <ul class="nav">
             <li class="nav__item">
@@ -126,6 +188,7 @@
             <li class="pictures-list__item">
               <img
                 class="image"
+                srcset="images/tech_1.jpg 1x, images/tech_1-2x.jpg 2x"
                 src="images/tech_1.jpg"
                 alt="кодинг"
                 width="370"
@@ -135,6 +198,7 @@
             <li class="pictures-list__item">
               <img
                 class="image"
+                srcset="images/tech_2.jpg 1x, images/tech_2-2x.jpg 2x"
                 src="images/tech_2.jpg"
                 alt="розкладка контента"
                 width="370"
@@ -144,6 +208,7 @@
             <li class="pictures-list__item">
               <img
                 class="image"
+                srcset="images/tech_3.jpg 1x, images/tech_3-2x.jpg 2x"
                 src="images/tech_3.jpg"
                 alt="выбор цвета"
                 width="370"
@@ -158,12 +223,22 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="crew-list">
             <li class="crew-list__item">
-              <img
+              <picture>
+                <source srcset="images/crew_1.jpg 1x, images/crew_1-2x.jpg 2x"
+                media="(min-width: 1200px)">
+
+                <source srcset="images/crew_1--tab-1x.jpg 1x, images/crew_1--tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+
+                <source srcset="images/crew_1--mob-1x.jpg 1x, images/crew_1--mob-2x.jpg 2x"
+                media="(max-width: 767px)">
+                <img
                 class="image"
                 src="images/crew_1.jpg"
                 alt="Дизайнер продукта"
-              
               />
+              </picture>
+        
               <div class="crew-list__box">
                 <h3 class="crew-list__title">Игорь Демьяненко</h3>
                 <p class="text" lang="en">Product Designer</p>
@@ -202,12 +277,21 @@
               </div>
             </li>
             <li class="crew-list__item">
-              <img
+              <picture>
+                <source srcset="images/crew_2.jpg 1x, images/crew_2-2x.jpg 2x"
+                media="(min-width: 1200px)">
+
+                <source srcset="images/crew_2--tab-1x.jpg 1x, images/crew_2--tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+
+                <source srcset="images/crew_2--mob-1x.jpg 1x, images/crew_2--mob-2x.jpg 2x"
+                media="(max-width: 767px)">
+                <img
                 class="image"
                 src="images/crew_2.jpg"
                 alt="Розработчик фронт-енд"
-          
               />
+              </picture>
               <div class="crew-list__box">
                 <h3 class="crew-list__title">Ольга Репина</h3>
                 <p class="text" lang="en">Frontend Developer</p>
@@ -246,12 +330,21 @@
               </div>
             </li>
             <li class="crew-list__item">
-              <img
+              <picture>
+                <source srcset="images/crew_3.jpg 1x, images/crew_3-2x.jpg 2x"
+                media="(min-width: 1200px)">
+
+                <source srcset="images/crew_3--tab-1x.jpg 1x, images/crew_3--tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+
+                <source srcset="images/crew_3--mob-1x.jpg 1x, images/crew_3--mob-2x.jpg 2x"
+                media="(max-width: 767px)">
+                <img
                 class="image"
                 src="images/crew_3.jpg"
                 alt="Глава маркетинга"
-              
               />
+              </picture>
               <div class="crew-list__box">
                 <h3 class="crew-list__title">Николай Тарасов</h3>
                 <p class="text" lang="en">Marketing</p>
@@ -290,12 +383,21 @@
               </div>
             </li>
             <li class="crew-list__item">
-              <img
+              <picture>
+                <source srcset="images/crew_4.jpg 1x, images/crew_4-2x.jpg 2x"
+                media="(min-width: 1200px)">
+
+                <source srcset="images/crew_4--tab-1x.jpg 1x, images/crew_4--tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+
+                <source srcset="images/crew_4--mob-1x.jpg 1x, images/crew_4--mob-2x.jpg 2x"
+                media="(max-width: 767px)">
+                <img
                 class="image"
                 src="images/crew_4.jpg"
                 alt="Дизайнер"
-            
               />
+              </picture>
               <div class="crew-list__box">
                 <h3 class="crew-list__title">Михаил Ермаков</h3>
                 <p class="text" lang="en">UI Designer</p>
@@ -554,5 +656,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

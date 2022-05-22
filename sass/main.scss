@@ -6,6 +6,7 @@
 @import "utils/structures";
 @import "components/common-styles/container";
 @import "components/header/navigation";
+@import "components/header/mob-menu";
 @import "components/common-styles/logo";
 @import "components/common-styles/adress";
 @import "layout/header";
@@ -21,7 +22,6 @@
 @import "layout/portfolio";
 @import "components/portfolio-page/portfolio-button";
 @import "layout/footer";
-@import "components/common-styles/social";
 @import "components/footer/footer-modal";
 @import "layout/modal";
 @import "components/modal/modal-inputs";
