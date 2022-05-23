@@ -1,5 +1,4 @@
 .logo {
-  margin-right: 93px;
   color: $headers-color;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -7,6 +6,10 @@
   text-decoration: none;
   line-height: 1.16;
   letter-spacing: 0.03em;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 0;
+  }
 
   @media screen and (min-width: 768px) {
     margin-right: 88px;

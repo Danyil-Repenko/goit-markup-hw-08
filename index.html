@@ -13,19 +13,23 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container header__container">
         <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
-        <div class="mob-menu">
-          <div class="mob-menu__container">
-            <div class="mob-menu-top">
-          <button type="button" class="mob-menu__button is-open" aria-label="Переключатель мобильного меню">
+        <button type="button" class="open-menu-button" aria-label="Переключатель мобильного меню">
               <svg width="40" height="40">
-                <use class="close-menu-icon" href="./images/icons.svg#icon-close-menu-icon"></use>
-                <use class="menu-icon" href="./images/icons.svg#icon-menu-icon"></use>
+                <use class="open-menu-icon" href="./images/icons.svg#icon-menu-icon"></use>
               </svg> 
             </button>
+        <div class="mob-menu is-hidden">
+          <div class="mob-menu__container">
+            <button type="button" class="close-menu-button" aria-label="Переключатель мобильного меню">
+              <svg width="40" height="40">
+                <use class="close-menu-icon" href="./images/icons.svg#icon-close-menu-icon"></use>
+              </svg> 
+            </button>
+            <div class="mob-menu-top">
           <ul class="mob-nav">
             <li class="mob-nav__item mob-nav__item--active">
               <a class="mob-nav__link" href="./index.html"
