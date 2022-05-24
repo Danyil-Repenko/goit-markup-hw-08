@@ -1217,9 +1217,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1438,10 +1435,15 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .adresses-section {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .adresses-section {
     text-align: center;
-    margin-bottom: 60px;
   }
 }
 
@@ -1470,9 +1472,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .follow-us {
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .follow-us {
     text-align: center;
   }
 }
@@ -1484,6 +1491,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-modal {
+    margin-top: 60px;
     width: 450px;
   }
 }

@@ -17,9 +17,11 @@
 }
 
 .adresses-section {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
   @media screen and (max-width: 1199px) {
     text-align: center;
-    margin-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -44,8 +46,10 @@
 }
 
 .follow-us {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 60px;
+  }
+  @media screen and (max-width: 1199px) {
     text-align: center;
   }
 }
