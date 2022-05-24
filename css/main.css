@@ -361,13 +361,13 @@ body {
   }
 }
 
-.section {
+.section, .section--no-padding-top {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
-  .section {
+  .section, .section--no-padding-top {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -589,6 +589,7 @@ body {
 }
 
 .footer__logo {
+  padding: 0;
   margin: 0;
   display: block;
   margin-bottom: 20px;
@@ -1644,12 +1645,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.input-container {
-  position: relative;
-  height: 40px;
-  color: #212121;
 }
 
 .form-field {
