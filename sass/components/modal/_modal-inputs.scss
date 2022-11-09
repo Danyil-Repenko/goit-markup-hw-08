@@ -24,10 +24,10 @@
   outline: transparent;
   background-color: transparent;
   cursor: pointer;
-  transition: border-color 250ms $animation-patern;
+  transition: border-color 250ms;
 
   &:focus {
-    border-color: $accent-color;
+    border-color: rgb(47, 79, 79);
   }
 }
 
