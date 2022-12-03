@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,135 +16,138 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
-        <button
-          type="button"
-          class="open-menu-button"
-          aria-label="Переключатель мобильного меню"
-        >
-          <svg width="40" height="40">
-            <use
-              class="open-menu-icon"
-              href="./images/icons.svg#icon-menu-icon"
-            ></use>
-          </svg>
-        </button>
-        <div class="mob-menu is-hidden">
-          <div class="mob-menu__container">
-            <button
-              type="button"
-              class="close-menu-button"
-              aria-label="Переключатель мобильного меню"
-            >
-              <svg width="40" height="40">
-                <use
-                  class="close-menu-icon"
-                  href="./images/icons.svg#icon-close-menu-icon"
-                ></use>
-              </svg>
-            </button>
-            <div class="mob-menu-top">
-              <ul class="mob-nav">
-                <li class="mob-nav__item">
-                  <a class="mob-nav__link" href="./index.html">Студия</a>
-                </li>
-                <li class="mob-nav__item mob-nav__item--active">
-                  <a class="mob-nav__link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="mob-nav__item">
-                  <a class="mob-nav__link" href="/">Контакты</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mob-menu-bottom">
-              <ul class="mob-adresses">
-                <li class="mob-adress__item">
-                  <a class="mob-adress__tel" href="tel:+380961111111">
-                    +38 096 111 11 11</a
-                  >
-                </li>
-                <li class="mob-adress__item">
-                  <a class="mob-adress__mail" href="mailto:info@devstudio.com">
-                    info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-              <ul class="mob-social">
-                <li class="mob-social__item">
-                  <a class="mob-social__link" href="/"> Instagram</a>
-                </li>
-                <li class="mob-social__item">
-                  <a class="mob-social__link" href="/"> Twitter</a>
-                </li>
-                <li class="mob-social__item">
-                  <a class="mob-social__link" href="/"> Facebook</a>
-                </li>
-                <li class="mob-social__item">
-                  <a class="mob-social__link" href="/"> LinkedIn</a>
-                </li>
-              </ul>
+          <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
+          <button
+            type="button"
+            class="open-menu-button"
+            aria-label="Перемикач мобільного меню"
+          >
+            <svg width="40" height="40">
+              <use
+                class="open-menu-icon"
+                href="./images/icons.svg#icon-menu-icon"
+              ></use>
+            </svg>
+          </button>
+          <div class="mob-menu is-hidden">
+            <div class="mob-menu__container">
+              <button
+                type="button"
+                class="close-menu-button"
+                aria-label="Перемикач мобільного меню"
+              >
+                <svg width="40" height="40">
+                  <use
+                    class="close-menu-icon"
+                    href="./images/icons.svg#icon-close-menu-icon"
+                  ></use>
+                </svg>
+              </button>
+              <div class="mob-menu-top">
+                <ul class="mob-nav">
+                  <li class="mob-nav__item mob-nav__item">
+                    <a class="mob-nav__link" href="./index.html">Студія</a>
+                  </li>
+                  <li class="mob-nav__item mob-nav__item--active">
+                    <a class="mob-nav__link" href="./portfolio.html">Роботи</a>
+                  </li>
+                  <li class="mob-nav__item">
+                    <a class="mob-nav__link" href="/">Зв'язок</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mob-menu-bottom">
+                <ul class="mob-adresses">
+                  <li class="mob-adress__item">
+                    <a class="mob-adress__tel" href="tel:+380961111111">
+                      +38 096 111 11 11</a
+                    >
+                  </li>
+                  <li class="mob-adress__item">
+                    <a
+                      class="mob-adress__mail"
+                      href="mailto:info@devstudio.com"
+                    >
+                      info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+                <ul class="mob-social">
+                  <li class="mob-social__item">
+                    <a class="mob-social__link" href="/"> Instagram</a>
+                  </li>
+                  <li class="mob-social__item">
+                    <a class="mob-social__link" href="/"> Twitter</a>
+                  </li>
+                  <li class="mob-social__item">
+                    <a class="mob-social__link" href="/"> Facebook</a>
+                  </li>
+                  <li class="mob-social__item">
+                    <a class="mob-social__link" href="/"> LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <nav>
-          <ul class="nav">
-            <li class="nav__item">
-              <a class="nav__link" href="./index.html">Студия</a>
+          <nav>
+            <ul class="nav">
+              <li class="nav__item">
+                <a class="nav__link" href="./index.html"
+                  >Студія</a
+                >
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__item--active" href="./portfolio.html">Роботи</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="/">Зв'язок</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="adresses">
+            <li class="adress__item">
+              <a class="adress__link" href="mailto:info@devstudio.com">
+                <svg class="adress__icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope-icon"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+              <!--змінити не можу, Prettier виправляє-->
             </li>
-            <li class="nav__item nav__item--active">
-              <a class="nav__link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="/">Контакты</a>
+            <li class="adress__item">
+              <a class="adress__link" href="tel:+380961111111"
+                ><svg class="adress__icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone-icon"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
-        </nav>
-        <ul class="adresses">
-          <li class="adress__item">
-            <a class="adress__link" href="mailto:info@devstudio.com">
-              <svg class="adress__icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope-icon"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-            <!--змінити не можу, Prettier виправляє-->
-          </li>
-          <li class="adress__item">
-            <a class="adress__link" href="tel:+380961111111"
-              ><svg class="adress__icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-phone-icon"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </div>
     </header>
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="section__title visually-hidden">Портфолио</h1>
+          <h1 class="section__title visually-hidden">Роботи</h1>
           <ul class="portf-filter">
             <li class="portf-filter__el">
               <button class="portf-filter__btn defoult-btn" type="button">
-                Все
+                Усе
               </button>
             </li>
             <li class="portf-filter__el">
-              <button class="portf-filter__btn" type="button">Веб-сайты</button>
+              <button class="portf-filter__btn" type="button">Веб-сайти</button>
             </li>
             <li class="portf-filter__el">
               <button class="portf-filter__btn" type="button">
-                Приложения
+                Застосунки
               </button>
             </li>
             <li class="portf-filter__el">
               <button class="portf-filter__btn" type="button">Дизайн</button>
-            </li>
             <li class="portf-filter__el">
-              <button class="portf-filter__btn" type="button">Маркетинг</button>
-            </li>
-          </ul>
+              <button class="portf-filter__btn" type="button">Рекламодавство</button>
+              </li>
+              </ul>
           <ul class="examples">
             <li class="examples__el">
               <a href="/" target="_blank" class="examples__link">
@@ -177,13 +180,11 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
-                  <h2 class="paragraf-head examples__head">Технокряк</h2>
+                  <h2 class="paragraf-head examples__head">Технокрякер</h2>
                   <p class="text">Веб-сайт</p>
                 </div></a
               >
@@ -219,9 +220,7 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
@@ -263,16 +262,14 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head">
                     Ресторан <span lang="en">Seafood</span>
                   </h2>
-                  <p class="text">Приложение</p>
+                  <p class="text">Застосунок</p>
                 </div></a
               >
             </li>
@@ -303,16 +300,14 @@
                     <img class="image" src="images/proj-4.jpg" alt="Наушники" />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head">
-                    Проект <span lang="en">Prime</span>
+                    Проєкт <span lang="en">Prime</span>
                   </h2>
-                  <p class="text">Маркетинг</p>
+                  <p class="text">Рекламодавство</p>
                 </div></a
               >
             </li>
@@ -347,16 +342,14 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head">
-                    Проект <span lang="en">Boxes</span>
+                    Проєкт <span lang="en">Boxes</span>
                   </h2>
-                  <p class="text">Приложение</p>
+                  <p class="text">Застосунок</p>
                 </div></a
               >
             </li>
@@ -391,9 +384,7 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
@@ -435,14 +426,12 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head">
-                    Издание <span lang="en">Limited Edition</span>
+                    Видання <span lang="en">Limited Edition</span>
                   </h2>
                   <p class="text">Дизайн</p>
                 </div></a
@@ -479,16 +468,14 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head">
-                    Проект <span lang="en">LAB</span>
+                    Проєкт <span lang="en">LAB</span>
                   </h2>
-                  <p class="text">Маркетинг</p>
+                  <p class="text">Рекламодавство</p>
                 </div></a
               >
             </li>
@@ -523,16 +510,14 @@
                     />
                   </picture>
                   <p class="examples__description-text">
-                    Ресурс предлагает комплексные предложения с разным уровнем
-                    функционала и сервисов. Все это позволит посетителю получить
-                    исчерпывающие сведения о компании или частном лице.
+                    Ресурс надає комплексні варіанти з різними рівнями функціоналу та сервісів. З цього відвідувач може отримати вичерпні дані про компанію або приватну особу.
                   </p>
                 </div>
                 <div class="examples__text">
                   <h2 class="paragraf-head examples__head" lang="en">
                     Growing Business
                   </h2>
-                  <p class="text">Приложение</p>
+                  <p class="text">Застосунок</p>
                 </div></a
               >
             </li>
@@ -551,9 +536,9 @@
               <li class="adress__el">
                 <a
                   class="adress__link adress__location"
-                  href="https://goo.gl/maps/9vUaXhKTsJwgG6u79"
+                  href="https://goo.gl/maps/dQX5HTKCHJB3yi2T6"
                   target="_blank"
-                  >г. Киев, пр-т Леси Украинки, 26</a
+                  >м. Київ, б-р Лесі Українки, 26</a
                 >
               </li>
               <li class="adress__el">
@@ -570,7 +555,7 @@
           </address>
         </div>
         <div class="follow-us">
-          <h3 class="follow-us__title">присоединяйтесь</h3>
+          <h3 class="follow-us__title">доєднуйтесь</h3>
           <ul class="social">
             <li class="social__item">
               <a class="social__link--footer" href="/">
@@ -603,7 +588,7 @@
           </ul>
         </div>
         <div class="contact-modal">
-          <h3 class="follow-us__title">Подпишитесь на рассылку</h3>
+          <h3 class="follow-us__title">Запишіться на розсилання</h3>
           <form class="contact-form" autocomplete="off">
             <input
               type="email"
@@ -612,7 +597,7 @@
               placeholder="E-mail"
             />
             <button type="submit" class="btn contact-button">
-              Подписаться
+              Записатися
               <svg class="icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
